@@ -10,11 +10,7 @@
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "dark": "#0D9373"
   },
   "topbarLinks": [
     {
@@ -26,20 +22,22 @@
     "name": "Dashboard",
     "url": "https://claimsdesk.com"
   },
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction"
-      ]
-    },
-    {
-      "group": "API Reference",
-      "pages": [
-        "api-reference/openapi"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api-reference/openapi"
+        ]
+      }
+    ]
+  },
   "openapi": "swagger.json",
   "footerSocials": {
     "x": "https://x.com/mintlify",
